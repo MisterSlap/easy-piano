@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: roboto;
+}
+
+.piano {
+  position: absolute;
+  background-color: #ccc;
+  margin: 0px;
+  width: 400px;
+  height: 10px;
+  pointer-events: stroke;
+}
+.piano_drag {
+  position: relative;
+  background-color: rgb(62, 52, 52);
+  height: 15px;
+  border: 1px solid #000;
+  color: #fff;
+  padding-right: 5px;
+  font-size: 12px;
+  text-align: end;
+}
+.piano__keys {
+  background: white;
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 400px;
+}
+.piano__keys .key {
+  display: flex;
+  top: 0;
+  width: 50px;
+  height: 140px;
+  background: #fff;
+  color: #000;
+  z-index: 1;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 15px;
+  pointer-events: stroke;
+  font-weight: bold;
+  font-size: 15px;
+}
+.piano__keys .key:hover {
+  background-color: #eeeeee;
+  color: #333;
+}
+.piano__keys .key:active {
+  background-color: #bbbbbb;
+  color: #666;
+}
+.piano__keys .black {
+  height: 100px;
+  width: 40px;
+  background: #000;
+  color: #fff;
+  z-index: 2;
+}
+.piano__keys .black:hover {
+  background-color: #222222;
+  color: #ddd;
+}
+.piano__keys .black:active {
+  background-color: #444444;
+  color: #ccc;
+}
+.piano__keys .c {
+  position: absolute;
+  left: 0px;
+}
+.piano__keys .c:nth-last-child(1) {
+  position: absolute;
+  left: 350px;
+}
+.piano__keys .cis {
+  position: absolute;
+  left: 30px;
+}
+.piano__keys .d {
+  position: absolute;
+  left: 50px;
+}
+.piano__keys .dis {
+  position: absolute;
+  left: 80px;
+}
+.piano__keys .e {
+  position: absolute;
+  left: 100px;
+}
+.piano__keys .f {
+  position: absolute;
+  left: 150px;
+}
+.piano__keys .fis {
+  position: absolute;
+  left: 180px;
+}
+.piano__keys .g {
+  position: absolute;
+  left: 200px;
+}
+.piano__keys .gis {
+  position: absolute;
+  left: 230px;
+}
+.piano__keys .a {
+  position: absolute;
+  left: 250px;
+}
+.piano__keys .ais {
+  position: absolute;
+  left: 280px;
+}
+.piano__keys .b {
+  position: absolute;
+  left: 300px;
+}/*# sourceMappingURL=style.css.map */
