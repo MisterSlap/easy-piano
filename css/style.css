@@ -12,6 +12,9 @@ body {
   width: 400px;
   height: 10px;
   pointer-events: stroke;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .piano_drag {
   position: relative;
@@ -22,6 +25,9 @@ body {
   padding-right: 5px;
   font-size: 12px;
   text-align: end;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .piano__keys {
   background: white;
